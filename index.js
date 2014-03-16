@@ -4,7 +4,7 @@ var ctx         = require('hudkit'),
     BlockWidget = ctx.getWidget('BlockWidget');
 
 ctx.registerCSS(require('fs').readFileSync(__dirname + '/style.unwise', 'utf8'));
-ctx.registerWidget('CodeEditor', module.exports = BlockWidget.extend(function(_sc, _sm) {
+ctx.registerWidget('AceEditor', module.exports = BlockWidget.extend(function(_sc, _sm) {
 
     return [
 
