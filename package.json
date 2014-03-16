@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaz303/hudkit-code-editor.git"
+    "url": "git://github.com/jaz303/hudkit-ace-editor.git"
   },
   "keywords": [
     "hudkit",
@@ -24,7 +24,7 @@
   "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jaz303/hudkit-code-editor/issues"
+    "url": "https://github.com/jaz303/hudkit-ace-editor/issues"
   },
-  "homepage": "https://github.com/jaz303/hudkit-code-editor"
+  "homepage": "https://github.com/jaz303/hudkit-ace-editor"
 }
