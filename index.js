@@ -1,7 +1,7 @@
 var ctx         = require('hudkit'),
-    theme       = hk.theme,
-    k           = hk.constants,
-    BlockWidget = null;
+    theme       = ctx.theme,
+    k           = ctx.constants,
+    BlockWidget = ctx.getWidget('BlockWidget');
 
 ctx.registerWidget('CodeEditor', module.exports = BlockWidget.extend(function(_sc, _sm) {
 
