@@ -1,0 +1,43 @@
+.hk-code-editor * {
+    -webkit-user-select: auto;
+}
+
+.hk-code-editor {
+    background: #00122A;
+    border-radius: $HK_BLOCK_BORDER_RADIUS;
+}
+
+.hk-code-editor .ace_editor {
+    font-family: $HK_MONOSPACE_FONT ;
+    font-size: 12px;
+}
+    
+.hk-code-editor ::-webkit-scrollbar {
+    background: #012042;
+    width: 15px;
+    height: 15px;
+}
+   
+/* 
+.hk-code-editor ::-webkit-scrollbar-button { }
+    
+.hk-code-editor ::-webkit-scrollbar-track { }
+.hk-code-editor ::-webkit-scrollbar-track:horizontal { border-top: 1px solid #01324B; }
+.hk-code-editor ::-webkit-scrollbar-track:vertical { border-left: 1px solid #01324B; }
+    
+.hk-code-editor ::-webkit-scrollbar-track-piece:start { }
+    
+.hk-code-editor ::-webkit-scrollbar-thumb:vertical {
+    background: url("thumb-v.png") repeat-y center center;
+    border-radius: 10px;
+    -webkit-background-clip: padding-box;
+}
+    
+.hk-code-editor ::-webkit-scrollbar-thumb:horizontal {
+    background: url("thumb-h.png") repeat-x center center;
+    border-radius: 10px;
+    -webkit-background-clip: padding-box;
+}
+    
+.hk-code-editor ::-webkit-scrollbar-corner {}
+*/

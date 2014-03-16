@@ -3,6 +3,7 @@ var ctx         = require('hudkit'),
     k           = ctx.constants,
     BlockWidget = ctx.getWidget('BlockWidget');
 
+ctx.registerCSS(require('fs').readFileSync(__dirname + '/style.unwise', 'utf8'));
 ctx.registerWidget('CodeEditor', module.exports = BlockWidget.extend(function(_sc, _sm) {
 
     return [
@@ -70,7 +71,7 @@ ctx.registerWidget('CodeEditor', module.exports = BlockWidget.extend(function(_s
                 this._editor.getSession().setMode("ace/mode/javascript");
 
                 var session = this._editor.getSession();
-                // session.setUseWorker(false);
+                session.setUseWorker(false);
 
             },
             
@@ -102,6 +103,6 @@ ctx.registerWidget('CodeEditor', module.exports = BlockWidget.extend(function(_s
             }
         }
 
-    ]
+    ];
 
 }));
